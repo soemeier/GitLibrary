@@ -50,9 +50,9 @@ public class GitLibrary {
 	private void printOptions() {
 		int option = 0;
 		while (option != 6) {
-			printOption(1, "Bücher anzeigen", bookShowService);
+			printOption(1, "B√ºcher anzeigen", bookShowService);
 			printOption(2, "Neues Buch anlegen", bookCreationService);
-			printOption(3, "Buch löschen", bookDeletionService);
+			printOption(3, "Buch l√∂schen", bookDeletionService);
 			printOption(4, "Buch ausleihen", bookRentService);
 			printOption(5, "Buch ausleihen", bookReturnService);
 			printOption(6, "Git lib beenden", new DoNothingService());
